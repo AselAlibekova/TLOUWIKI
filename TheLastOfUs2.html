@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheLastOfUs2</title>
+    <link rel="icon" href="images/tlou1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/TheLastOfUs2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+    <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <div class="col-md-3 mb-2 mb-md-0">
+      <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+        <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
+          <img src="images/123.jpg" alt="" width="100" height="100">
+        </svg>
+       </a>
+      <button id="playPauseButton" style="width: 60px;" class="btn btn-success">Play</button>
+    </div>
+    <span style="text-align: center; font-size: 42px; text-transform: uppercase; font-weight: bold;">The Last of Us Wiki
+      <img src="images/tlou1.jpg" alt="" style="width: 80px; height: 80px;"></span>
+    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <li><a href="index.html" class="nav-link px-2 "style="font-size: 24px;">Home</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 24px;">
+          Games
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="TheLastOfUs1.html"style="font-size: 24px;">The Last Of Us 1</a></li>
+          <li><a class="dropdown-item link-secondary" href="JavaScript:void(0);"style="font-size: 24px;">The Last of Us 2</a></li>
+          <li><a class="dropdown-item" href="TheLastOfUsDLC.html"style="font-size: 24px;">The Last of Us Left Behind</a></li>
+        </ul>
+      </li>
+      <li><a href="About.html" class="nav-link px-2"style="font-size: 24px;">About</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="container-fluid text-center" style="background-image: url(images/bg1.jpg); background-size: 100%;">
+        <div class="row content">
+            <div class="col-sm-1 sidenav">
+
+            </div>
+            <div class="col-sm-10 text-center">
+                <br>
+                <h1 style="color: aliceblue;">THE LAST OF US PART II</h1>
+                <hr>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Watch trailer of game
+                </button>
+
+            <div class="modal fade modal-xl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                   <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                  <div class="modal-body">
+                    <video width="100%" height="500" controls>
+                    <source src="images/trailer2.mp4" type="video/mp4"></video>
+                  </div>
+                </div>
+              </div>
+           </div>
+
+               
+                <hr class="hr-text" data-content="content" style="color: aliceblue;">
+                <div class="accordion accordion-flush" id="accordionFlushExample" style="border-radius: 10px;">
+                    <div class="accordion-item" style="border-radius: 10px;">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="border-radius: 10px;">
+                            Backstory and setting
+                        </button>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" style="background-image: url(images/bg1.jpg);">
+                                <p style="width: 50%; float: left; color: aliceblue;">
+                                    The Last of Us Part II takes place five years after the events of the first game and nearly 25 years after the outbreak of the Cordyceps brain infection began. Ellie, who is now 19 years old, returns as the protagonist whom players assume control of. Joel, in his mid-fifties, also returns as a briefly playable character, as does Abby Anderson, who functions as the game's dual protagonist.[7][8]
+
+                                    Joel and Ellie, having settled down in Tommy's settlement, live in relative peace within the thriving community. While there, Ellie has even managed to form friendships with Dina and Jesse. However, the survivors face constant threats from infected and other hostile survivors.
+                                    
+                                    When a tragic event disrupts the tranquility of her life, a hate filled Ellie embarks on a journey to Seattle in a search for vengeance to carry out justice. As she hunts down those responsible one by one, she is confronted with the traumatizing physical and emotional consequences of her actions.   
+                                </p>
+                                <img src="images/t2.webp" alt="" width="400" height="350" style="border-style: groove; border-width:10px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="border-radius: 10px;">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="border-radius: 10px;">
+                            Gameplay
+                        </button>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" style="background-image: url(images/bg1.jpg);">
+                                <p style="width: 50%; float: left; color: aliceblue;">
+                                    Ellie was originally intended to be the sole playable character in the game's singleplayer campaign.[26] However, this changed at some point before release, with Joel, Ellie, and Abby all being playable for portions of the game. While multiplayer was originally planned to launch with the game,[27] it was revealed by Lead Game Designer Emilia Schatz that the game will not feature multiplayer, a statement later confirmed by a representative for Sony.[28] </p>
+                                <img src="images/t3.webp" alt="" style="border-width: 10px; border-style:groove" width="500" height="350">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="border-radius: 10px;">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" style="border-radius: 10px;">
+                            Development
+                        </button>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" style="background-image: url(images/bg1.jpg);">
+                                <p style="width: 50%; float: left; color: aliceblue;">
+                                    In February 2014, creative director Neil Druckmann said the possibility of a sequel to the The Last of Us was "about 50/50", and the team needed to develop a story "really worth telling, and that's not repeating itself".[30] In July 2014, community strategist Arne Meyer said that not considering a sequel "would be a disservice" to the studio and the fans.[31]
+
+                                    The first hints of a sequel in development came in a patch released for The Last of Us in 2014. Naughty Dog actually leaked prototypes for Part II in the game files under the heading "thing 2 prototype"; The Last of Us, when in development, was called "thing 1" in the game files.[32] Furthermore, in December 2014, character artist Michael Knowland (who previously worked with Naughty Dog on The Last of Us) updated his LinkedIn page to include The Last of Us 2 with him as the lead character artist who was designing head sculpts. Shortly afterwards his page was updated to remove all mention of the sequel    
+                                </p>
+                                <img src="images/t4.jpg" alt="" style="border-width: 10px; border-style:groove" width="350" height="350">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="border-radius: 10px;">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour" style="border-radius: 10px;">
+                            Announcement
+                        </button>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" style="background-image: url(images/bg1.jpg);">
+                                <p style="width: 50%; float: left; color: aliceblue;">
+                                    On December 3, 2016 at Sony's annual PlayStation Experience event (PSX), Naughty Dog closed the event by officially announcing a sequel to The Last of Us via a reveal trailer, titled The Last of Us Part II.[40] Ellie has been confirmed to be the main playable character who will "play differently" than Joel from the original. Troy Baker and Ashley Johnson were also confirmed to reprise their roles as Joel and Ellie respectively while Neil Druckmann will write the script. No release date has been announced and the game was noted to be in very early development by Shawn Layden.[41] Druckmann also remarked it was Naughty Dog's "most ambitious game yet".    
+                                </p>
+                                <img src="images/t5.jpg" alt="" width="400" height="350" style="border-width: 10px; border-style:groove">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="border-radius: 10px;">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive" style="border-radius: 10px;">
+                            Reveal trailer
+                        </button>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" style="background-image: url(images/bg1.jpg);">
+                                <p style="width: 50%; float: left; color: aliceblue;">
+                                    The trailer opens with a sequence of five shots of a forested area. The rusty remains of an abandoned vehicle and a tree with claw marks in its trunk are shown as the camera pans outwards. Some run-down houses then appear in the foreground, before an old 'Stop' road sign with the Firefly logo graffitied on it comes into view.
+
+                                    Then the scene changes to Ellie sat on a bed, tuning and subsequently playing an acoustic guitar as she sings Through the Valley by Shawn James. The next shot reveals a tattoo on her arm as the camera cuts around the room, showing among many other things an open window to Ellie's left. Some have noted the resemblance between this window and the window depicted on the main menu screen of the original game.[5]
+                                    
+                                    While the music continues, a male figure enters through the front door. Initially nothing more than a silhouette, the man walks through the house with a revolver in his right hand, taking stock of the several dead bodies littered in the building, implied to have been killed by Ellie. None of the bodies show obvious signs of infection by the CBI from the original game.    
+                                </p>
+                                <img src="images/t6.jpg" alt="" width="500" height="350" style="border-width: 10px; border-style:groove">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                     
+                <hr class="hr-text" data-content="characters">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/ellie.webp" class="card-img-top" alt="..."  data-bs-toggle="modal" data-bs-target="#modalEllie">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Ellie</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="modalEllie" tabindex="-1" aria-labelledby="modalEllieLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalEllieLabel">Ellie</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/ellie.webp" class="img-fluid" alt="Ellie">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/joel.webp" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalJoel">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Joel</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="modalJoel" tabindex="-1" aria-labelledby="modalJoelLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalJoelLabel">Joel</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/joel.webp" class="img-fluid" alt="Ellie">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/abby.webp" class="card-img-top" alt="..."data-bs-toggle="modal" data-bs-target="#modalAbby">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Abby</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="modalAbby" tabindex="-1" aria-labelledby="modalAbbyLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalAbbyLabel">Abby</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/abby.webp" class="img-fluid" alt="Ellie">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <hr>
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/dina.webp" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalDina">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Dina</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="modalDina" tabindex="-1" aria-labelledby="modalDinaLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalDinaLabel">Dina</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/dina.webp" class="img-fluid" alt="Dina">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/tommy.webp" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalTommy">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Tommy</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="modalTommy" tabindex="-1" aria-labelledby="modalTommyLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalTommyLabel">Tommy</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/tommy.webp" class="img-fluid" alt="Ellie">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/jesse.webp" class="card-img-top" alt="..."  data-bs-toggle="modal" data-bs-target="#modalJesse">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Jesse</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 <hr>
+                 <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="modal fade" id="modalJesse" tabindex="-1" aria-labelledby="modalJesseLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalJesseLabel">Jesse</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/Jesse.webp" class="img-fluid" alt="Jesse">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/lev.webp" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalLev">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Lev</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="modalLev" tabindex="-1" aria-labelledby="modalLevLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalLevLabel">Lev</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/lev.webp" class="img-fluid" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/maria.webp" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalMaria">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Maria</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="modalMaria" tabindex="-1" aria-labelledby="modalMariaLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalMariaLabel">Maria</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/Maria.webp" class="img-fluid" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/infected.webp" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalinfected">
+                        <div class="card-body">
+                          <h5 class="card-title">The Last Of Us part II : main characters</h5>
+                          <p class="card-text">Infected</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="modalinfected" tabindex="-1" aria-labelledby="modalinfectedLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modalinfectedLabel">infected</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="images/infected.webp" class="img-fluid" alt="Ellie">
+                          <img src="images/clicer.jpg" class="img-fluid" alt="Ellie">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-sm-1 sidenav" style="background-image: url(images/bg1.jpg)">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="Audio">
+        <audio loop id="backgroundAudio" style="display: none;">
+            <source src="audio/Ashley_Johnson_-_True_Faith_70001499.mp3" type="audio/mp3">
+            Ваш браузер не поддерживает аудио элемент.
+        </audio>
+    </div>
+    <footer class="text-center text-lg-start text-white" style="background-image: url(images/bg1.jpg);">
+        <div class="container p-2 pb-0">
+            <section class="q">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="mx-3 mt-3">
+                        <p><i class="fas fa-home mr-3"></i> Astana, KZ</p>
+                    </div>
+                    <div class="mx-3 mt-3">
+                        <p><i class="fas fa-envelope mr-3"></i> avokebila11@gmail.com</p>
+                    </div>
+                    <div class="mx-3 mt-3">
+                        <p><i class="fas fa-phone mr-3"></i> +7 7773002562</p>
+                    </div>
+                    <div class="mx-3 mt-3">
+                        <p><i class="fa fa-university mr-3"></i> Astana IT University</p>
+                    </div>
+                </div>
+            </section>
+    
+            <hr class="my-3">
+    
+            <section class="p-3 pt-0 text-center">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <p>© 2024 Copyright: Alibekova Asel</p>
+                </div>
+            </section>
+        </div>
+    </footer>
+    
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/TheLastOfUs2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</body>
+
+</html>
